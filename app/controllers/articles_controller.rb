@@ -9,10 +9,10 @@ class ArticlesController < ApplicationController
     @article = Article.new(article_params)
     if @article.save
         flash[:notice] = "Article was successfully created"
+        #redirect_to_article_path(@article)
     else
         render 'new'
     end
-    #render text: params[:article].inspect
 
     end
     
@@ -20,8 +20,7 @@ class ArticlesController < ApplicationController
     @article = Article.find(article_params[:id])
     end 
     
-        
-
+    
 
 private 
 
