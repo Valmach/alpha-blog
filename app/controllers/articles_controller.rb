@@ -12,7 +12,7 @@ class ArticlesController < ApplicationController
     else
         render 'new'
     end
-    render plain: params[:article].inspect
+    #render text: params[:article].inspect
 
     end
     
