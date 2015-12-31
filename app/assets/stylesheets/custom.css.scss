@@ -7,7 +7,7 @@ $navbar-default-bg: #AB072D;
     font-size: 1.7em;
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
     font-weight: bold;
     }
     
@@ -21,8 +21,24 @@ $navbar-default-bg: #AB072D;
     }
     
 .jumbotron {
-    backgound-image: asset-url('bertrand-russell-quote-fools-wise-men-quote.jpg');
+    backgound-image: assets-url("Alpha_Blog.jpeg");
     backgound-size: cover;
+    height: 550px;
+    
+    .jumbotron{
+        color: #fff;
+        text-align: center;
+        margin-bottom: 30px;
+        letter-spacing: -1px;
+        font-weight: bold;
+        
+        .btn-xlarge{
+            font-size: 1.7em;
+            backgound-color: black;
+            
+        }
+        
+    }
     
     
 }
