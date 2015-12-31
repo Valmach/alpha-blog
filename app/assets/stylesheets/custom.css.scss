@@ -21,7 +21,8 @@ $navbar-default-bg: #AB072D;
     }
     
 .jumbotron {
+    backgound-image: asset-url('bertrand-russell-quote-fools-wise-men-quote.jpg');
+    backgound-size: cover;
     
-    backgound-image: asset-url('giantny.jpg')
     
 }
