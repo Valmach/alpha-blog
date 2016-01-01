@@ -1,31 +1,31 @@
-$navbar-default-bg: #AB072D;
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
-#logo {
-    float: left;
-    font-size: 1.7em;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    font-weight: bold;
-    }
-    
-    #logo:hover {
+        $navbar-default-bg: #AB072D;
+        @import "bootstrap-sprockets";
+        @import "bootstrap";
+        
+        #logo {
+        float: left;
+        font-size: 1.7em;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        font-weight: bold;
+        }
+        
+        #logo:hover {
         color: #fff;
         text-decoration: none;
         
-    }
-    .center {
+        }
+        .center {
         text-align: center;
-    }
-    
-.jumbotron {
-    backgound-image: assets-url("Alpha_Blog.jpeg");
-    backgound-size: cover;
-    height: 550px;
-    
-    .jumbotron{
+        }
+        
+        .jumbotron  {
+        background: url("WaterFall.png");
+        background-size: cover;
+        height: 550px;
+        
+        .jumbotron h1 {
         color: #fff;
         text-align: center;
         margin-bottom: 30px;
@@ -33,12 +33,63 @@ $navbar-default-bg: #AB072D;
         font-weight: bold;
         
         .btn-xlarge{
-            font-size: 1.7em;
-            backgound-color: black;
-            
-        }
+        font-size: 1.7em;
+        backgound-color: black;
         
+        .jumbotron h1{
+        color: #fff;
+        text: align-center;
+        margin-bottom: 30px;
+        letter-spacing: -1px;
+        font-weight: bold;
+        
+        footer {
+        margin-top: 45px;
+        padding-top: 5px;
+        border-top: 1px solid #eaeaea;
+        color: #777;
+        }
+        footer a:hover {
+        color: #222;
+        }
+        footer small {
+        float: left;
+        }
+        footer ul {
+        float: right;
+        list-style: none;
+        }
+        footer ul li {
+        float: left;
+        margin-left: 15px;
+        
+        footer {
+        margin-top: 45px;
+        padding-top: 5px;
+        border-top: 1px solid #eaeaea;
+        color: #777;
+        
+        footer a:hover {
+        color: #222;
+        
+        footer small {
+        float: left;
+}
+        footer ul {
+        float: right;
+        list-style: none;
+}
+        footer ul li {
+        float: left;
+        margin-left: 15px;
+}
+}
+    
+        }
     }
     
-    
-}
+    }
+        }
+        
+        }
+        }
