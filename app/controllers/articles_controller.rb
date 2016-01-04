@@ -32,7 +32,7 @@ class ArticlesController < ApplicationController
     if @article.update(article_params)
     flash[:success] = "Article was successfully updated"
     redirect_to article_path(@article)
-else
+    else
     render 'edit'
     end
     end
@@ -46,11 +46,8 @@ else
     flash[:success] = "Article was successfully deleted"
     redirect_to articles_path
     end
-
     
-    
-
-private
+    private
 
     def set_article
     @article = Article.find(params[:id])
@@ -59,4 +56,4 @@ private
     def article_params
     params.require(:article).permit(:title, :description)
     end
-end
+    end
